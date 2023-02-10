@@ -1,0 +1,70 @@
+### your site title here
+
+title: 이희승 (idghst)
+description: iOS Developer
+
+baseurl: /idghst #name of GitHub repository
+url: "" #custom url to be used instead of GitHub repository
+email: idghst.dev@gmail.com
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+# twitter: "#"
+# linkedin: "#"
+# stackoverflow: "#"
+github: "idghst"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+instagram: "idghst.97"
+# facebook: "#"
+
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+# optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - 3-범죄예방-시스템.md
+      - 2-예비수강-시간표.md
+      - 1-지하철-혼잡도.md
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank
