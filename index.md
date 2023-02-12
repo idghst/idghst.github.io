@@ -7,15 +7,12 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+부산은행 카드계 SI 프로젝트, 투자증권 RPA 사업 등 금융 SI 프로젝트를 해왔습니다.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+퇴근 후 _iOS_, _Flutter_ 앱 개발 공부 및 [블로그](https://idghst.tistory.com/){:target="_blank"} 포스팅을 하고 있습니다.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+_SOLID_ 원칙 및 _KISS_, _DRY_, _YAGNI_ 원칙을 충분히 준수하며 개발하고 있습니다.
 
-PS: If you liked the theme, do star it on GitHub!
+효율적인 개발 진행을 위해 공통 모듈 만들고 관련 내용을 문서화하여 관리하며 프로젝트를 진행하고 있습니다.
 
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+성능 개선을 할 때는 Worse-case를 기준으로 더 나은 방법을 해결하려고 하고 있습니다.
